@@ -7,6 +7,7 @@ Vite
 Node.js
 
 Hvordan kjøre programmet?
+For å kjøre prosjektet må Visual Studio Code og Node.js være innstallert.
 Åpne en ny termimal i Visual Studio Code:
 Klon repoet:
 git clone https://github.com/laai1212/Kleda-salgs-dashboard.git
