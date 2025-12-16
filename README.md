@@ -7,6 +7,7 @@ Vite
 Node.js
 
 Hvordan kjøre programmet?
+Åpne en ny termimal i Visual Studio Code:
 Klon repoet:
 git clone https://github.com/laai1212/Kleda-salgs-dashboard.git
 
@@ -15,3 +16,5 @@ npm install
 
 start utviklingsserver:
 npm run dev
+
+Når prosjektet starter kommer det opp en localhost lenke, kopier denne og lim den inn i nettleser.
