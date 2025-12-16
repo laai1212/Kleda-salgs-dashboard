@@ -1,0 +1,74 @@
+.cr-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 16px 24px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+  border: 1px solid #e5e7eb;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-auto-rows: auto;
+  row-gap: 4px;
+  width: 300px;
+}
+
+/* TITTEL – samme som kort-tittel */
+.cr-header {
+  grid-column: 1 / span 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.cr-header h3 {
+  margin: 0;
+  font-size: 14px;      /* samme som .kort-tittel */
+  color: #000000;        /* samme farge */
+  font-weight: 500;
+}
+
+.cr-icon {
+  font-size: 16px;
+  color: #6b7280;
+}
+
+/* HOVEDTALL – samme som .kort-beloep */
+.cr-value {
+  grid-column: 1;
+  font-size: 22px;       /* samme størrelse */
+  font-weight: 600;       /* samme vekt */
+  color: #111827;
+  margin: 0;
+}
+
+/* PROSENTENDRING – samme stil som .kort-endring-negativ/positiv */
+.cr-change {
+  grid-column: 2;
+  justify-self: end;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;       /* matcher de andre kortene */
+  font-weight: 500;
+  margin: 0;
+}
+
+.cr-change-arrow {
+  font-size: 14px;
+}
+
+.cr-positive {
+  color: #16a34a;        /* grønn */
+}
+
+.cr-negative {
+  color: #dc2626;        /* rød */
+}
+
+.cr-description {
+  grid-column: 1 / span 2;   /* så den legger seg under hele kortet */
+  margin-top: 4px;
+  font-size: 14px;
+  color: #6b7280;            /* samme grå som de andre kortene */
+}

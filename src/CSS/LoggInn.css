@@ -1,0 +1,84 @@
+/* Hele siden */
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+ 
+/* Sentrerer innholdet */
+.login-container {
+  position: fixed;       /* Fyll hele skjermen */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+ 
+  display: flex;
+  justify-content: center;  
+  align-items: center;    
+ 
+  background-color: #ffffff; /* Blå bakgrunn over hele */
+}
+ 
+ 
+/* Boksen som inneholder logo + felter */
+.login-box {
+  background-color: rgb(178, 79, 100);
+  padding: 40px;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+ 
+/* Logo */
+.logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+ 
+/* Tittel */
+.login-title {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+ 
+/* Input-etiketter */
+.login-box label {
+  color: white;
+  font-size: 18px;
+  display: block;
+  text-align: left;
+  margin-top: 15px;
+}
+ 
+/* login boxen */
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ffffff;
+  color: rgb(7, 0, 0);
+  font-size: 16px;
+}
+ 
+/* Knapp */
+.login-button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #f24a67;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+ 
+.login-button:hover {
+  background-color: #d93d58;
+}

@@ -1,0 +1,73 @@
+.customers-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 16px 24px;   /* samme som cr-card */
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+  width: 300px;
+  position: relative;
+}
+
+/* Topp-rad: tittel + ikon */
+.customers-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+/* Tittel – som cr-header h3 */
+.customers-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  margin: 0;
+}
+
+.customers-icon {
+  font-size: 16px;
+  color: #6b7280;
+}
+
+/* Midtrad: stort tall + prosent */
+.customers-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+/* Hovedtall – som .cr-value */
+.customers-value {
+  font-size: 22px;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Prosentendring – som .cr-change */
+.customers-change {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.customers-change.pos {
+  color: #16a34a; /* grønn */
+}
+
+.customers-change.neg {
+  color: #dc2626; /* rød */
+}
+
+.customers-arrow {
+  font-size: 14px;
+}
+
+/* Undertekst – som .kort-tekst-under / cr-subtitle */
+.customers-subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 4px;
+}

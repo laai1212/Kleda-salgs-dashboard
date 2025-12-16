@@ -1,0 +1,72 @@
+.orders-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 16px 24px;   /* samme som cr-card */
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+  width: 300px;
+  position: relative;
+}
+
+
+ 
+.orders-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+ 
+.orders-icon {
+  font-size: 16px;
+  color: #6b7280;
+}
+ 
+.orders-mid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+ 
+.orders-change {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;   /* matcher .cr-change */
+  font-weight: 500;
+}
+ 
+.orders-change.pos {
+  color: #16a34a;
+}
+ 
+.orders-change.neg {
+  color: #dc2626;
+}
+ 
+.orders-arrow {
+  font-size: 14px;
+}
+
+/* Gjør tittelen identisk med .kort-tittel */
+.orders-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+
+/* Gjør hovedtallet identisk med .kort-beloep */
+.orders-value {
+  font-size: 22px;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Gjør underteksten identisk med .kort-tekst-under */
+.orders-subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 4px;
+}
+

@@ -1,0 +1,73 @@
+.return-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 16px 24px;
+  width: 300px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+  border: 1px solid #e5e7eb;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.return-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+/* Tittel – som cr-header h3 */
+.return-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.return-refresh {
+  font-size: 16px;
+  color: #6b7280;
+}
+
+.return-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Hovedtall – som .cr-value */
+.return-value {
+  font-size: 22px;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Prosentendring – som .cr-change */
+.return-change {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.return-change.negative {
+  color: #16a34a; /* grønn */
+}
+
+.return-change.positive {
+  color: #dc2626; /* rød */
+}
+
+.return-arrow {
+  font-size: 14px;
+}
+
+/* Undertekst */
+.return-subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 4px;
+}

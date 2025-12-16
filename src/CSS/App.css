@@ -1,0 +1,101 @@
+/* Wrapper for hele app-delen */
+.app-root {
+  padding: 24px;
+}
+
+/* Container for KPI-kortene (øverste + raden under) */
+.kort-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;       /* avstand mellom øverste kort og raden under */
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+/* Rad 2: Produkter solgt + Conversion Rate + Returandel */
+.kpi-rad {
+  display: flex;
+  gap: 24px;
+  align-items: stretch; /* gjør alle kort like høye */
+}
+
+/* Standard KPI-kort (Total omsetning + Produkter solgt) */
+.kort {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 16px 24px;   /* matcher Conversion Rate */
+  width: 300px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+  border: 1px solid #e5e7eb;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Tittel i kortene – match cr-header h3 */
+.kort-tittel {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+
+/* Rad med hovedtall og prosent */
+.kort-rad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Hovedtall – match .cr-value */
+.kort-beloep {
+  font-size: 22px;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Positiv endring – match .cr-change */
+.kort-endring-positiv {
+  color: #16a34a;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Negativ endring */
+.kort-endring-negativ {
+  color: #dc2626;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Undertekst – match cr-subtitle */
+.kort-tekst-under {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.app-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.time-range-wrapper {
+  position: relative;
+}
+
+.time-range-select {
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  font-size: 14px;
+  color: #111827;
+  cursor: pointer;
+}
+
+.time-range-select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}

@@ -1,0 +1,50 @@
+/* Kortet rundt grafen */
+.sales-card {
+  background: white;
+  padding: 20px 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+  margin-top: 30px;
+  width: 800px;
+  margin-left: 190px;
+}
+
+/* Tittel over grafen */
+.sales-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Undertekst */
+.sales-subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+/* Container for knappene */
+.sales-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+/* Vanlig knapp (ikke aktiv) */
+.sales-tab {
+  padding: 6px 14px;
+  border-radius: 9999px; /* rund kapsel */
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  color: #6b7280;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* Aktiv knapp lyser rød */
+.sales-tab-active {
+  background-color:   #f24a67;
+  border-color:  #f24a67;
+  color: #ffffff;
+}
+ 

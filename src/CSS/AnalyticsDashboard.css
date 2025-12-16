@@ -1,0 +1,178 @@
+/* Layout for hele AnalyticsDashboard */
+.analytics-wrapper {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  padding: 24px;
+  border-radius: 12px;
+   background: #ffffff; 
+}
+
+.layout {
+  padding: 24px;
+}
+
+/* Tabs */
+.tabs {
+  display: inline-flex;
+  padding: 4px;
+  background: #e5e7eb;
+  border-radius: 999px;
+  margin-bottom: 16px;
+}
+
+.tab-button {
+  border: none;
+  background: transparent;
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  color: #4b5563;
+  cursor: pointer;
+}
+
+.tab-active {
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.2);
+  color: #111827;
+}
+
+/* Card-container */
+.card {
+  background: transparent;
+  border-radius: 18px;
+  padding: 24px 28px 28px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+/* Card header */
+.card-header h2 {
+  margin: 0 0 4px;
+  font-size: 20px;
+}
+
+.card-header p {
+  margin: 0 0 18px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* Filter row */
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.filter-label {
+  color: #374151;
+}
+
+.category-select {
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  font-size: 14px;
+  color: #374151;
+}
+
+/* Table */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.data-table thead {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: 10px 4px;
+}
+
+.data-table th {
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.data-table tbody tr:nth-child(odd) {
+  background-color: #fafbff;
+}
+
+/* Category pill */
+.category-pill {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: #f3f4ff;
+  color: #4b5563;
+  font-size: 12px;
+}
+
+/* Status pills */
+.status-pill {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+/* Order statuses */
+.status-completed {
+  background: #bbf7d0;
+  color: #166534;
+}
+
+.status-processing {
+  background: #bfdbfe;
+  color: #1d4ed8;
+}
+
+.status-pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-cancelled {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* Cart statuses */
+.status-active {
+  background: #bbf7d0;
+  color: #166534;
+}
+
+.status-idle {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+/* Customer cell */
+.customer-cell {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-email {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* Items list */
+.items-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.items-list li {
+  font-size: 13px;
+}
