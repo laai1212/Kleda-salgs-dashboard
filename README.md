@@ -19,3 +19,6 @@ start utviklingsserver:
 npm run dev
 
 Når prosjektet starter kommer det opp en localhost lenke, kopier denne og lim den inn i nettleser.
+Du vil deretter komme til en innloggingsside, 
+her er brukernavnet: "demo@kleda.no",
+Passordet er: "dittPassord123" (husk stor P)
