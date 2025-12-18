@@ -18,7 +18,7 @@ export const Customers: React.FC<CustomersProps> = ({
   return (
     <div className="customers-card" onClick={onClick}>
       <div className="customers-top">
-        <span className="customers-title">Customers</span>
+        <span className="customers-title">Kunder</span>
         <span className="customers-icon" aria-hidden="true">
           👥
         </span>
