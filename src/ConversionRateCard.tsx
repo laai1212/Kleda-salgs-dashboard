@@ -4,7 +4,7 @@ export default function ConversionRateCard() {
   return (
     <div className="cr-card">
       <div className="cr-header">
-        <h3>Conversion Rate</h3>
+        <h3>Konverteringsrate</h3>
         <span className="cr-icon">↗</span>
       </div>
 
