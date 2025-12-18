@@ -12,6 +12,9 @@ For å kjøre prosjektet må Visual Studio Code og Node.js være innstallert.
 Klon repoet:
 git clone https://github.com/laai1212/Kleda-salgs-dashboard.git
 
+gå inn i prosjektmappen:
+cd Kleda-salgs-dashboard
+
 installer avhengigheter:
 npm install
 
